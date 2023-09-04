@@ -1,6 +1,6 @@
 @ECHO OFF
 setlocal EnableExtensions EnableDelayedExpansion
-curl https://raw.githubusercontent.com/nickyhuyskens/csgo-config/main/autoexec.cfg -o "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg"
+curl https://raw.githubusercontent.com/nickyhuyskens/csgo-config/main/cs2config.cfg -o "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg"
 ECHO Downloaded autoexec.cfg to C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg
 rem ...
 set "UserChoice=no"
