@@ -17,7 +17,7 @@ if errorlevel 2 (
   echo "Ok bye."
   PAUSE
 ) else (
-  notepad "%DownloadLocation%"
+  notepad "%DownloadLocation%"\autoexec.cfg
 )
 
 endlocal
